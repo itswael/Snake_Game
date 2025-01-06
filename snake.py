@@ -22,6 +22,8 @@ class Snake:
             self.segments.append(segment)
 
     def move(self):
+        # snake direction would be decided by the head or first segment,
+        # thus tracing by the remaining segments for easy follow movement
         for seq_num in range(len(self.segments) - 1, 0, -1):
             new_x = self.segments[seq_num - 1].xcor()
             new_y = self.segments[seq_num - 1].ycor()
