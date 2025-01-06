@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="10368d6f-098f-4e21-988c-1d3b586e0c48" name="Changes" comment="created and moved relevant code to Snake class">
-      <change afterPath="$PROJECT_DIR$/food.py" afterDir="false" />
+    <list default="true" id="10368d6f-098f-4e21-988c-1d3b586e0c48" name="Changes" comment="implemented food creation and detection functionality">
+      <change afterPath="$PROJECT_DIR$/scoreboard.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/snake.py" beforeDir="false" afterPath="$PROJECT_DIR$/snake.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +50,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.main.executor": "Run",
+    "Python.scoreboard.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
@@ -105,7 +105,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736129804869</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="implemented food creation and detection functionality">
+      <option name="closed" value="true" />
+      <created>1736131192054</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1736131192054</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -113,6 +121,7 @@
     <MESSAGE value="dummy snake implemented" />
     <MESSAGE value="added changing direction functionality using screen listener" />
     <MESSAGE value="created and moved relevant code to Snake class" />
-    <option name="LAST_COMMIT_MESSAGE" value="created and moved relevant code to Snake class" />
+    <MESSAGE value="implemented food creation and detection functionality" />
+    <option name="LAST_COMMIT_MESSAGE" value="implemented food creation and detection functionality" />
   </component>
 </project>
