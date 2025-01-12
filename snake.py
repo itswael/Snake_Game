@@ -57,3 +57,11 @@ class Snake:
         new_y = self.segments[len(self.segments)-1].ycor()
         segment.goto(new_x, new_y)
         self.segments.append(segment)
+
+    def new_game(self):
+        for segment_b in self.segments:
+            segment_b.goto(1000,1000)
+        self.segments.clear()
+        self.segments = []
+        self.create_snake()
+        self.head = self.segments[0]
