@@ -10,8 +10,8 @@ screen.tracer(0)
 screen.bgcolor("black")
 screen.title("Snake Game")
 
+# todo implement exit functionality
 
-#Turtle.speed()
 snake = Snake()
 food = Food()
 scoreboard = Scoreboard()
@@ -35,16 +35,13 @@ while game_is_on:
         scoreboard.increase_score()
 
     if snake.head.xcor() > 295 or snake.head.xcor() < -295 or snake.head.ycor() > 295 or snake.head.ycor() < -295:
-        # game_is_on = False
         scoreboard.game_over()
         snake.new_game()
 
     for segment in snake.segments[1:]:
         if snake.head.distance(segment) < 10:
-            # game_is_on = False
             scoreboard.game_over()
             snake.new_game()
-
 
 screen.exitonclick()
 

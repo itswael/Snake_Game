@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="10368d6f-098f-4e21-988c-1d3b586e0c48" name="Changes" comment="Added:&#10;-&gt; highest score and auto restart the new game">
-      <change afterPath="$PROJECT_DIR$/Data.txt" afterDir="false" />
+    <list default="true" id="10368d6f-098f-4e21-988c-1d3b586e0c48" name="Changes" comment="Added:&#10;-&gt; read and write the highest score to text file">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scoreboard.py" beforeDir="false" afterPath="$PROJECT_DIR$/scoreboard.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,7 +137,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736645856359</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Added:&#10;-&gt; read and write the highest score to text file">
+      <option name="closed" value="true" />
+      <created>1736647182915</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1736647182915</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -151,6 +157,7 @@
     <MESSAGE value="Added scoreboard" />
     <MESSAGE value="Added:&#10;-&gt; gameover logic&#10;&#10;updated:&#10;-&gt; snake head, collision detection" />
     <MESSAGE value="Added:&#10;-&gt; highest score and auto restart the new game" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added:&#10;-&gt; highest score and auto restart the new game" />
+    <MESSAGE value="Added:&#10;-&gt; read and write the highest score to text file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added:&#10;-&gt; read and write the highest score to text file" />
   </component>
 </project>
